@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<LangVersion>latest</LangVersion>
+		<Version>1.0.0-alpha01</Version>
+		<Authors>SVRGN.eu</Authors>
+		<Description>state machine implementation with transition events and all of that.</Description>
+		<PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+		<PackageTags>Implementations;SVRGN;StateMachine;State Machine;</PackageTags>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SVRGN.Libs.Contracts.Service.Logging" Version="1.0.0-alpha16" />
+    <PackageReference Include="SVRGN.Libs.Contracts.Service.Object" Version="1.0.0-alpha16" />
+    <PackageReference Include="SVRGN.Libs.Contracts.StateMachine" Version="1.0.0-alpha01" />
+    <PackageReference Include="SVRGN.Libs.Extensions" Version="1.0.0-alpha02" />
+  </ItemGroup>
+
+</Project>

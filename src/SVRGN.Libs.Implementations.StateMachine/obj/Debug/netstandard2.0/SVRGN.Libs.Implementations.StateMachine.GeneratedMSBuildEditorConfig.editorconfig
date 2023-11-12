@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = SVRGN.Libs.Implementations.StateMachine
+build_property.ProjectDir = D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Libs.Implementations.StateMachine\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
