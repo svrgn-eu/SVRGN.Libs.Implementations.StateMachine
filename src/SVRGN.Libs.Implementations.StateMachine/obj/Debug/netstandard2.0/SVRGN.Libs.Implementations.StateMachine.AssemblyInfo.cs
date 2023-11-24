@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("state machine implementation with transition events and all of that.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0-alpha01")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0-alpha02")]
 [assembly: System.Reflection.AssemblyProductAttribute("SVRGN.Libs.Implementations.StateMachine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SVRGN.Libs.Implementations.StateMachine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

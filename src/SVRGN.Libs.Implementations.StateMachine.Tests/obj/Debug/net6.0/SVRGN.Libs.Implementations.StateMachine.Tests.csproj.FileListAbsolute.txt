@@ -124,3 +124,4 @@ D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Lib
 D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Libs.Implementations.StateMachine.Tests\obj\Debug\net6.0\SVRGN.Libs.Implementations.StateMachine.Tests.pdb
 D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Libs.Implementations.StateMachine.Tests\obj\Debug\net6.0\SVRGN.Libs.Implementations.StateMachine.Tests.genruntimeconfig.cache
 D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Libs.Implementations.StateMachine.Tests\obj\Debug\net6.0\ref\SVRGN.Libs.Implementations.StateMachine.Tests.dll
+D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Libs.Implementations.StateMachine.Tests\obj\Debug\net6.0\SVRGN.Libs.Implementations.StateMachine.Tests.sourcelink.json

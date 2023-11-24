@@ -69,6 +69,40 @@ namespace SVRGN.Libs.Implementations.StateMachine.Tests
         }
         #endregion Transition
 
+        #region TransitionTo
+        [DataTestMethod]
+        [DataRow("Start", "Process", true)]
+        [DataRow("Start", "End", false)]
+        public void TransitionTo(string StartStateName, string TargetStateName, bool IsExpectedToBeSuccessful)
+        {
+            IStateMachine stateMachine = this.ObjectService.Create<IStateMachine>();
+
+            int TransitionCounter = 0;
+
+            stateMachine.AddState("Start");
+            stateMachine.AddState("Process");
+            stateMachine.AddState("End");
+            stateMachine.StartWith(StartStateName);
+            stateMachine.AddTransition("Transition1", "Start", "Process");
+            stateMachine.AddTransitionAction("Transition1", () => { TransitionCounter++; });
+            stateMachine.AddTransition("Transition2", "Process", "End");
+            stateMachine.AddTransitionAction("Transition2", () => { TransitionCounter++; });
+
+            bool hasTransitionHappened = stateMachine.TransitionTo(TargetStateName);
+
+            if (IsExpectedToBeSuccessful)
+            {
+                Assert.AreEqual(true, hasTransitionHappened);
+                Assert.AreEqual(1, TransitionCounter);
+            }
+            else
+            {
+                Assert.AreEqual(false, hasTransitionHappened);
+                Assert.AreEqual(0, TransitionCounter);
+            }
+        }
+        #endregion TransitionTo
+
         #region TransitionWithoutAction
         [TestMethod]
         public void TransitionWithoutAction()

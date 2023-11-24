@@ -450,6 +450,33 @@ namespace SVRGN.Libs.Implementations.StateMachine
         }
         #endregion GetTransitionByToState
 
+        #region TransitionTo
+        public bool TransitionTo(string TargetStateName)
+        {
+            bool result = false;
+
+            IStateTransition transition = this.GetTransitionByStates(currentStateName, TargetStateName);
+
+            if (transition != null)
+            {
+                result = this.Transition(transition.Name);
+            }
+
+            return result;
+        }
+        #endregion TransitionTo
+
+        #region GetTransitionByStates
+        private IStateTransition GetTransitionByStates(string FromState, string ToState)
+        {
+            IStateTransition result = default(IStateTransition);
+
+            result = this.transitions.Where(x => x.FromState.Equals(FromState) && x.ToState.Equals(ToState)).FirstOrDefault();
+
+            return result;
+        }
+        #endregion GetTransitionByStates
+
         #region ToMermaid
         public string ToMermaid()
         {

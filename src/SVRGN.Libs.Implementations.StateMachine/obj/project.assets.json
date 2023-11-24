@@ -71,7 +71,7 @@
           "lib/netstandard2.0/SVRGN.Libs.Contracts.Service.Object.dll": {}
         }
       },
-      "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha01": {
+      "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha02": {
         "type": "package",
         "dependencies": {
           "SVRGN.Libs.Contracts.Base": "1.0.0-alpha16"
@@ -290,15 +290,15 @@
         "svrgn.libs.contracts.service.object.nuspec"
       ]
     },
-    "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha01": {
-      "sha512": "lrKG0uiHAK/b96QylVEKXZQy+32GErkjJXbKMgxLyqEvMJVtKEJlTkjEldQn5RIQTC2BG4PtmxZA0zdbCqgudw==",
+    "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha02": {
+      "sha512": "6d8F/vp3t7T5hEZI6YeM3XjilV1sNBJw+iAorKDQVrzJlqRoDPjvTI7olWSfwjEdC1zCSQk2vTuidtf9PS9zEw==",
       "type": "package",
-      "path": "svrgn.libs.contracts.statemachine/1.0.0-alpha01",
+      "path": "svrgn.libs.contracts.statemachine/1.0.0-alpha02",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/SVRGN.Libs.Contracts.StateMachine.dll",
-        "svrgn.libs.contracts.statemachine.1.0.0-alpha01.nupkg.sha512",
+        "svrgn.libs.contracts.statemachine.1.0.0-alpha02.nupkg.sha512",
         "svrgn.libs.contracts.statemachine.nuspec"
       ]
     },
@@ -320,7 +320,7 @@
       "NETStandard.Library >= 2.0.3",
       "SVRGN.Libs.Contracts.Service.Logging >= 1.0.0-alpha16",
       "SVRGN.Libs.Contracts.Service.Object >= 1.0.0-alpha16",
-      "SVRGN.Libs.Contracts.StateMachine >= 1.0.0-alpha01",
+      "SVRGN.Libs.Contracts.StateMachine >= 1.0.0-alpha02",
       "SVRGN.Libs.Extensions >= 1.0.0-alpha02"
     ]
   },
@@ -329,7 +329,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0-alpha01",
+    "version": "1.0.0-alpha02",
     "restore": {
       "projectUniqueName": "D:\\Dev\\CSharp\\SVRGN\\public\\SVRGN.Libs.Implementations.StateMachine\\src\\SVRGN.Libs.Implementations.StateMachine\\SVRGN.Libs.Implementations.StateMachine.csproj",
       "projectName": "SVRGN.Libs.Implementations.StateMachine",
@@ -364,9 +364,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -389,7 +386,7 @@
           },
           "SVRGN.Libs.Contracts.StateMachine": {
             "target": "Package",
-            "version": "[1.0.0-alpha01, )"
+            "version": "[1.0.0-alpha02, )"
           },
           "SVRGN.Libs.Extensions": {
             "target": "Package",
@@ -407,7 +404,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },

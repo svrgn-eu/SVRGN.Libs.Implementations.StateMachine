@@ -44,9 +44,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -63,7 +60,7 @@
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -79,7 +76,7 @@
             },
             "SVRGN.Libs.Contracts.StateMachine": {
               "target": "Package",
-              "version": "[1.0.0-alpha01, )"
+              "version": "[1.0.0-alpha02, )"
             },
             "SVRGN.Libs.Implementations.DependencyInjection": {
               "target": "Package",
@@ -116,12 +113,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
     "D:\\Dev\\CSharp\\SVRGN\\public\\SVRGN.Libs.Implementations.StateMachine\\src\\SVRGN.Libs.Implementations.StateMachine\\SVRGN.Libs.Implementations.StateMachine.csproj": {
-      "version": "1.0.0-alpha01",
+      "version": "1.0.0-alpha02",
       "restore": {
         "projectUniqueName": "D:\\Dev\\CSharp\\SVRGN\\public\\SVRGN.Libs.Implementations.StateMachine\\src\\SVRGN.Libs.Implementations.StateMachine\\SVRGN.Libs.Implementations.StateMachine.csproj",
         "projectName": "SVRGN.Libs.Implementations.StateMachine",
@@ -156,9 +153,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -181,7 +175,7 @@
             },
             "SVRGN.Libs.Contracts.StateMachine": {
               "target": "Package",
-              "version": "[1.0.0-alpha01, )"
+              "version": "[1.0.0-alpha02, )"
             },
             "SVRGN.Libs.Extensions": {
               "target": "Package",
@@ -199,7 +193,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

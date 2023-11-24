@@ -41,7 +41,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -464,7 +464,7 @@
           "lib/netstandard2.0/SVRGN.Libs.Contracts.Service.Object.dll": {}
         }
       },
-      "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha01": {
+      "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha02": {
         "type": "package",
         "dependencies": {
           "SVRGN.Libs.Contracts.Base": "1.0.0-alpha16"
@@ -578,13 +578,13 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "SVRGN.Libs.Implementations.StateMachine/1.0.0-alpha01": {
+      "SVRGN.Libs.Implementations.StateMachine/1.0.0-alpha02": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SVRGN.Libs.Contracts.Service.Logging": "1.0.0-alpha16",
           "SVRGN.Libs.Contracts.Service.Object": "1.0.0-alpha16",
-          "SVRGN.Libs.Contracts.StateMachine": "1.0.0-alpha01",
+          "SVRGN.Libs.Contracts.StateMachine": "1.0.0-alpha02",
           "SVRGN.Libs.Extensions": "1.0.0-alpha02"
         },
         "compile": {
@@ -741,15 +741,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
-      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
         "buildTransitive/net462/_._",
@@ -761,11 +762,13 @@
         "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1275,15 +1278,15 @@
         "svrgn.libs.contracts.service.object.nuspec"
       ]
     },
-    "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha01": {
-      "sha512": "lrKG0uiHAK/b96QylVEKXZQy+32GErkjJXbKMgxLyqEvMJVtKEJlTkjEldQn5RIQTC2BG4PtmxZA0zdbCqgudw==",
+    "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha02": {
+      "sha512": "6d8F/vp3t7T5hEZI6YeM3XjilV1sNBJw+iAorKDQVrzJlqRoDPjvTI7olWSfwjEdC1zCSQk2vTuidtf9PS9zEw==",
       "type": "package",
-      "path": "svrgn.libs.contracts.statemachine/1.0.0-alpha01",
+      "path": "svrgn.libs.contracts.statemachine/1.0.0-alpha02",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/SVRGN.Libs.Contracts.StateMachine.dll",
-        "svrgn.libs.contracts.statemachine.1.0.0-alpha01.nupkg.sha512",
+        "svrgn.libs.contracts.statemachine.1.0.0-alpha02.nupkg.sha512",
         "svrgn.libs.contracts.statemachine.nuspec"
       ]
     },
@@ -1416,7 +1419,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "SVRGN.Libs.Implementations.StateMachine/1.0.0-alpha01": {
+    "SVRGN.Libs.Implementations.StateMachine/1.0.0-alpha02": {
       "type": "project",
       "path": "../SVRGN.Libs.Implementations.StateMachine/SVRGN.Libs.Implementations.StateMachine.csproj",
       "msbuildProject": "../SVRGN.Libs.Implementations.StateMachine/SVRGN.Libs.Implementations.StateMachine.csproj"
@@ -1426,15 +1429,15 @@
     "net6.0": [
       "MSTest.TestAdapter >= 3.1.1",
       "MSTest.TestFramework >= 3.1.1",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.0",
       "Microsoft.NET.Test.Sdk >= 17.9.0-preview-23531-01",
       "SVRGN.Libs.Contracts.Service.Logging >= 1.0.0-alpha16",
       "SVRGN.Libs.Contracts.Service.Object >= 1.0.0-alpha16",
-      "SVRGN.Libs.Contracts.StateMachine >= 1.0.0-alpha01",
+      "SVRGN.Libs.Contracts.StateMachine >= 1.0.0-alpha02",
       "SVRGN.Libs.Implementations.DependencyInjection >= 1.0.0-alpha02",
       "SVRGN.Libs.Implementations.Service.ConsoleLogger >= 1.0.0-alpha09",
       "SVRGN.Libs.Implementations.Service.Object >= 1.0.0-alpha01",
-      "SVRGN.Libs.Implementations.StateMachine >= 1.0.0-alpha01",
+      "SVRGN.Libs.Implementations.StateMachine >= 1.0.0-alpha02",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -1482,9 +1485,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -1501,7 +1501,7 @@
           },
           "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
-            "version": "[7.0.0, )"
+            "version": "[8.0.0, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -1517,7 +1517,7 @@
           },
           "SVRGN.Libs.Contracts.StateMachine": {
             "target": "Package",
-            "version": "[1.0.0-alpha01, )"
+            "version": "[1.0.0-alpha02, )"
           },
           "SVRGN.Libs.Implementations.DependencyInjection": {
             "target": "Package",
@@ -1554,7 +1554,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },

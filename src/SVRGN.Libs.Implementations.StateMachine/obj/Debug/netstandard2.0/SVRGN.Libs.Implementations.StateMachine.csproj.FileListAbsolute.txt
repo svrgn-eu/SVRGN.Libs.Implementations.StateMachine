@@ -8,3 +8,4 @@ D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Lib
 D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Libs.Implementations.StateMachine\obj\Debug\netstandard2.0\SVRGN.Libs.Implementations.StateMachine.csproj.CoreCompileInputs.cache
 D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Libs.Implementations.StateMachine\obj\Debug\netstandard2.0\SVRGN.Libs.Implementations.StateMachine.dll
 D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Libs.Implementations.StateMachine\obj\Debug\netstandard2.0\SVRGN.Libs.Implementations.StateMachine.pdb
+D:\Dev\CSharp\SVRGN\public\SVRGN.Libs.Implementations.StateMachine\src\SVRGN.Libs.Implementations.StateMachine\obj\Debug\netstandard2.0\SVRGN.Libs.Implementations.StateMachine.sourcelink.json

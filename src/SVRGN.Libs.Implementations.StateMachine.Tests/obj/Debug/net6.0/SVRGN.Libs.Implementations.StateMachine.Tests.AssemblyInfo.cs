@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SVRGN.Libs.Implementations.StateMachine.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3da717f3636e10d06cfb40a6f4f2619d4d3db276")]
 [assembly: System.Reflection.AssemblyProductAttribute("SVRGN.Libs.Implementations.StateMachine.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SVRGN.Libs.Implementations.StateMachine.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

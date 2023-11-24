@@ -7,12 +7,12 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "SVRGN.Libs.Implementations.StateMachine/1.0.0-alpha01": {
+      "SVRGN.Libs.Implementations.StateMachine/1.0.0-alpha02": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "SVRGN.Libs.Contracts.Service.Logging": "1.0.0-alpha16",
           "SVRGN.Libs.Contracts.Service.Object": "1.0.0-alpha16",
-          "SVRGN.Libs.Contracts.StateMachine": "1.0.0-alpha01",
+          "SVRGN.Libs.Contracts.StateMachine": "1.0.0-alpha02",
           "SVRGN.Libs.Extensions": "1.0.0-alpha02"
         },
         "runtime": {
@@ -66,7 +66,7 @@
           }
         }
       },
-      "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha01": {
+      "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha02": {
         "dependencies": {
           "SVRGN.Libs.Contracts.Base": "1.0.0-alpha16"
         },
@@ -91,7 +91,7 @@
     }
   },
   "libraries": {
-    "SVRGN.Libs.Implementations.StateMachine/1.0.0-alpha01": {
+    "SVRGN.Libs.Implementations.StateMachine/1.0.0-alpha02": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -138,12 +138,12 @@
       "path": "svrgn.libs.contracts.service.object/1.0.0-alpha16",
       "hashPath": "svrgn.libs.contracts.service.object.1.0.0-alpha16.nupkg.sha512"
     },
-    "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha01": {
+    "SVRGN.Libs.Contracts.StateMachine/1.0.0-alpha02": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lrKG0uiHAK/b96QylVEKXZQy+32GErkjJXbKMgxLyqEvMJVtKEJlTkjEldQn5RIQTC2BG4PtmxZA0zdbCqgudw==",
-      "path": "svrgn.libs.contracts.statemachine/1.0.0-alpha01",
-      "hashPath": "svrgn.libs.contracts.statemachine.1.0.0-alpha01.nupkg.sha512"
+      "sha512": "sha512-6d8F/vp3t7T5hEZI6YeM3XjilV1sNBJw+iAorKDQVrzJlqRoDPjvTI7olWSfwjEdC1zCSQk2vTuidtf9PS9zEw==",
+      "path": "svrgn.libs.contracts.statemachine/1.0.0-alpha02",
+      "hashPath": "svrgn.libs.contracts.statemachine.1.0.0-alpha02.nupkg.sha512"
     },
     "SVRGN.Libs.Extensions/1.0.0-alpha02": {
       "type": "package",

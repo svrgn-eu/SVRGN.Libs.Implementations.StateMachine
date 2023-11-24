@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/YhJVYP23x6kVcvkD6Ixgt3U8izjcPQL7AFBZp2grbkbXtkd1MYBVUOfKmgklXuBqr442e5erxNZBxAtuRnmcA==",
+  "dgSpecHash": "DIPMeBzsiokxhSyyFJ7/cY6OmsOx7E/BrZTFTirWmIBqlKA5GNvBuBZUbO6N0rce+whZx3178yfx89AJ3xm4vg==",
   "success": true,
   "projectFilePath": "D:\\Dev\\CSharp\\SVRGN\\public\\SVRGN.Libs.Implementations.StateMachine\\src\\SVRGN.Libs.Implementations.StateMachine\\SVRGN.Libs.Implementations.StateMachine.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "C:\\Users\\efilt\\.nuget\\packages\\svrgn.libs.contracts.service.base\\1.0.0-alpha16\\svrgn.libs.contracts.service.base.1.0.0-alpha16.nupkg.sha512",
     "C:\\Users\\efilt\\.nuget\\packages\\svrgn.libs.contracts.service.logging\\1.0.0-alpha16\\svrgn.libs.contracts.service.logging.1.0.0-alpha16.nupkg.sha512",
     "C:\\Users\\efilt\\.nuget\\packages\\svrgn.libs.contracts.service.object\\1.0.0-alpha16\\svrgn.libs.contracts.service.object.1.0.0-alpha16.nupkg.sha512",
-    "C:\\Users\\efilt\\.nuget\\packages\\svrgn.libs.contracts.statemachine\\1.0.0-alpha01\\svrgn.libs.contracts.statemachine.1.0.0-alpha01.nupkg.sha512",
+    "C:\\Users\\efilt\\.nuget\\packages\\svrgn.libs.contracts.statemachine\\1.0.0-alpha02\\svrgn.libs.contracts.statemachine.1.0.0-alpha02.nupkg.sha512",
     "C:\\Users\\efilt\\.nuget\\packages\\svrgn.libs.extensions\\1.0.0-alpha02\\svrgn.libs.extensions.1.0.0-alpha02.nupkg.sha512"
   ],
   "logs": [
