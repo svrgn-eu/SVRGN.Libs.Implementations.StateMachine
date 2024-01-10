@@ -12,10 +12,6 @@ namespace SVRGN.Libs.Implementations.StateMachine.Tests
     [TestCategory("IStateMachine")]
     public class StateMachineTests : BaseTest
     {
-        #region Properties
-
-        #endregion Properties
-
         #region Methods
 
         #region GetCurrentState
@@ -49,20 +45,20 @@ namespace SVRGN.Libs.Implementations.StateMachine.Tests
         [TestMethod]
         public void Transition()
         {
-            IStateMachine stateMachine = this.ObjectService.Create<IStateMachine>();
+            IStateMachine stateMachine = this.ObjectService.Create<IStateMachine>();  //Dependency Injection resolve call
 
             int TransitionCounter = 0;
 
-            stateMachine.AddState("Start");
-            stateMachine.AddState("Process");
-            stateMachine.AddState("End");
+            stateMachine.AddState("Start");  // add state "Start"
+            stateMachine.AddState("Process");  // add state "Process"
+            stateMachine.AddState("End");  // add state "End"
             stateMachine.StartWith("Start");
-            stateMachine.AddTransition("Transition1", "Start", "Process");
-            stateMachine.AddTransitionAction("Transition1", () => { TransitionCounter++; });
-            stateMachine.AddTransition("Transition2", "Process", "End");
-            stateMachine.AddTransitionAction("Transition2", () => { TransitionCounter++; });
+            stateMachine.AddTransition("Start2Process", "Start", "Process");  // add transition possibility from "Start" to "Process"
+            stateMachine.AddTransitionAction("Start2Process", () => { TransitionCounter++; });  // adds an action which is called when calling that transition
+            stateMachine.AddTransition("Process2End", "Process", "End");  // add transition possibility from "Process" to "End"
+            stateMachine.AddTransitionAction("Process2End", () => { TransitionCounter++; });
 
-            bool hasTransitionHappened = stateMachine.Transition("Transition1");
+            bool hasTransitionHappened = stateMachine.Transition("Transition1");  // perform the transition and check, if it happened
 
             Assert.AreEqual(true, hasTransitionHappened);
             Assert.AreEqual(1, TransitionCounter);
@@ -83,10 +79,10 @@ namespace SVRGN.Libs.Implementations.StateMachine.Tests
             stateMachine.AddState("Process");
             stateMachine.AddState("End");
             stateMachine.StartWith(StartStateName);
-            stateMachine.AddTransition("Transition1", "Start", "Process");
-            stateMachine.AddTransitionAction("Transition1", () => { TransitionCounter++; });
-            stateMachine.AddTransition("Transition2", "Process", "End");
-            stateMachine.AddTransitionAction("Transition2", () => { TransitionCounter++; });
+            stateMachine.AddTransition("Start2Process", "Start", "Process");  // add transition possibility from "Start" to "Process"
+            stateMachine.AddTransitionAction("Start2Process", () => { TransitionCounter++; });  // adds an action which is called when calling that transition
+            stateMachine.AddTransition("Process2End", "Process", "End");  // add transition possibility from "Process" to "End"
+            stateMachine.AddTransitionAction("Process2End", () => { TransitionCounter++; });
 
             bool hasTransitionHappened = stateMachine.TransitionTo(TargetStateName);
 
