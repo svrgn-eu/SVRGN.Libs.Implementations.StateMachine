@@ -58,7 +58,7 @@ namespace SVRGN.Libs.Implementations.StateMachine.Tests
             stateMachine.AddTransition("Process2End", "Process", "End");  // add transition possibility from "Process" to "End"
             stateMachine.AddTransitionAction("Process2End", () => { TransitionCounter++; });
 
-            bool hasTransitionHappened = stateMachine.Transition("Transition1");  // perform the transition and check, if it happened
+            bool hasTransitionHappened = stateMachine.Transition("Start2Process");  // perform the transition and check, if it happened
 
             Assert.AreEqual(true, hasTransitionHappened);
             Assert.AreEqual(1, TransitionCounter);
