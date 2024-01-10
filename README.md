@@ -6,6 +6,8 @@ This package contains an implementation of a state machine following https://git
 
 String based implementation helps on the one-hand side to avoid some overhead but also to interact with less dependencies, on the other hand you need to know what you're doing and you surely should avoid magic strings (the "magic" is misleading ;-) https://en.wikipedia.org/wiki/Magic_string.
 
+One useful feature is the mermaid import and export, so you can scribble basic diagrams on https://mermaid.live and then transition them to your state machine, or vice versa in order to debug logical errors.
+
 # How to use
 You can find all test cases in https://github.com/svrgn-eu/SVRGN.Libs.Implementations.StateMachine/tree/main/src/SVRGN.Libs.Implementations.StateMachine.Tests.
 
